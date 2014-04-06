@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="FDockHxNME" package="ftb.app.fdockhx" version="1.0.0" company="ftb" />
+	
+	<!-- output -->
+	<app main="ftb.app.fdockhx.FDock" file="FDockHxNME" path="bin" />
+	
+	<window width="600" height="300" background="0x5A86A7" fps="24" orientation="landscape" resizeable="true" hardware="false" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src/haxe" />
+	<haxelib name="openfl" />
+	<haxelib name="feffects" />
+	
+	<!-- assets -->
+	<!--<icon path="assets/FDock.ico" />-->
+	<assets path="assets">
+		<font path="fonts/tahomabd.ttf" id="tahomabd" />
+	</assets>
+	
+	<!--<template path="assets/data" unless="cpp" />
+	<template path="assets/data" rename="bin/data" if="cpp" />-->
+
+</project>

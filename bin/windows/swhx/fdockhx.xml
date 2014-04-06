@@ -1,0 +1,11 @@
+<fdock>
+	<config minSize="40" maxSize="68" spread="2" delay="250" spacing="20" fontSize="14" location="top" hidden="false" background="none" border="none" />
+	<shortcuts>
+		<shortcut name="Computer" path="explorer.exe" icon="img/computer-128x128.png" />
+		<shortcut name="Settings" path="control.exe" icon="img/settings-128x128.png" />
+		<shortcut name="Notepad" path="notepad.exe" icon="img/Text-Edit-128x128.png" />
+		<shortcut name="Internet Explorer" path="iexplore.exe" icon="img/8642-skorpiux-InternetExplorer7-128x128.png" />
+		<shortcut name="Firefox" path="firefox.exe" icon="img/11122-vinced33-firefox-128x128.png" />
+		<shortcut name="Media Player" path="wmplayer.exe" icon="img/7522-bananaboy-WindowsMediaPlayer128x128.png" />
+	</shortcuts>
+</fdock>

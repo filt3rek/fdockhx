@@ -1,0 +1,9 @@
+<fdock>
+	<config minSize="40" maxSize="68" spread="2" delay="250" spacing="20" fontSize="14" location="bottom" hidden="false" background="none" border="none" />
+	<shortcuts>
+		<shortcut name="Home" path="http://mromecki.fr/" icon="img/home.png" />
+		<shortcut name="About" path="http://mromecki.fr/#About" icon="img/cv.png" />
+		<shortcut name="Contact" path="http://mromecki.fr/#Contact" icon="img/contact.png" />
+		<shortcut name="Blog" path="http://mromecki.fr/blog" icon="img/blog.png" />
+	</shortcuts>
+</fdock>

@@ -1,0 +1,13 @@
+-main ApplicationMain 
+-lib openfl
+-lib feffects
+-cp src/haxe
+-D tools=1.3.2
+-D web
+-swf-version 11.2
+-swf bin/flash/bin/FDockHxNME.swf
+-swf-header 600:300:24:5A86A7
+-cp bin/flash/haxe
+#--remap nme:flash
+#--no-inline
+-debug

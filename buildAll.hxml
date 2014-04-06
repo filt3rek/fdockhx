@@ -1,0 +1,36 @@
+### Flash
+-cp src/haxe
+-lib feffects
+-main ftb.app.fdockhx.FDock
+-swf-lib assets/fonts/tahomabd.swf
+-swf-header 600:300:24:5A86A7
+-swf-version 9
+-swf bin/flash-alone/FDockHx.swf
+
+### SWHX Flash
+--next
+-cp src/haxe
+-lib feffects
+-lib swhx
+-main ftb.app.fdockhx.FDock
+-swf-lib assets/fonts/tahomabd.swf
+-swf-header 600:300:24:5A86A7
+-swf-version 9
+-swf bin/windows/swhx/FDockHxSWHX.swf
+
+### SWHX Neko
+--next
+-cp src/haxe
+-lib systools
+-lib swhx
+-D neko_v1
+-main ftb.app.fdockhx.App
+-neko bin/windows/swhx/app.n
+
+### openFL Flash
+--next
+-cmd haxelib run lime build flash
+
+### openFL HTML5
+#--next
+#-cmd haxelib run lime build html5
