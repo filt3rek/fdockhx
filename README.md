@@ -1,8 +1,8 @@
 # FDockHx
 
-At the begining it was a tutorial written for [Flash&Flex Developper's magazine](http://www.ffdmag.com/) in 2008 :
+At the begining it was a tutorial written for [Flash&Flex Developper's magazine](http://www.ffdmag.com/) in 2008. You can see more informations [here](http://mromecki.fr/blog/post/flash-desktop-applications-using-haxe-swhx).
 
-![Magazine](http://mromecki.fr/blog/post/35/pic2.jpg)
+![Magazine](http://mromecki.fr/blog/post/26/okladka.jpg)
 
 It's a dock written in [Haxe](http://haxe.org) that uses [SWHX](http://haxe.org/com/libs/swhx) but it can be built alone for the Flash player or thanks to [openFL](http://www.openfl.org/) for HTML5, Windows, Linux, Mac, iOS, Android
 	
